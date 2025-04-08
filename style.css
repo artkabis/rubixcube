@@ -3,30 +3,29 @@ body {
     font-family: sans-serif;
     background-color: #f0f0f0;
     color: #333;
-    display: flex; /* Utilisation de flex pour centrer */
+    display: flex; 
     flex-direction: column;
-    align-items: center; /* Centrer horizontalement */
-    min-height: 100vh; /* Prendre toute la hauteur */
-    overflow: hidden; /* Empêcher le défilement si le canvas dépasse */
+    align-items: center; 
+    min-height: 100vh; 
+    overflow: hidden; 
 }
 
 h1 {
     margin-top: 20px;
 }
-
 #container {
-    width: 80vmin; /* Utilise la plus petite dimension de la fenêtre */
+    width: 80vmin;
     height: 70vmin;
     max-width: 600px;
     max-height: 500px;
     border: 1px solid #ccc;
     margin-top: 20px;
-    position: relative; /* Nécessaire pour le positionnement absolu du renderer */
-    background-color: #fff; /* Fond blanc pour le conteneur */
+    position: relative;
+    background-color: #fff;
 }
 
 canvas {
-    display: block; /* Empêche l'espace sous le canvas */
+    display: block;
     width: 100%;
     height: 100%;
 }
@@ -41,21 +40,18 @@ button {
     padding: 8px 15px;
     cursor: pointer;
 }
-/* Styles précédents ... */
 
 #status {
     margin-top: 10px;
     font-style: italic;
     color: #555;
-    min-height: 1.2em; /* Empêche le saut de page */
+    min-height: 1.2em; 
 }
 
 #container {
-    /* ... (styles précédents) */
-    margin-top: 10px; /* Ajustement */
+    margin-top: 10px;
 }
 
 #controls {
-     /* ... (styles précédents) */
-     margin-top: 15px; /* Ajustement */
+     margin-top: 15px;
 }
