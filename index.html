@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubik's Cube 3D Animé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rubik's Cube 3D Animé</h1>
+    <div id="status">Prêt</div> <!-- Zone pour afficher l'état -->
+    <div id="container"></div>
+    <div id="controls">
+        <button id="shuffleButton">Mélanger (Shuffle)</button>
+        <button id="solveButton">Résoudre (Animation)</button>
+    </div>
+
+    <!-- Import Three.js -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <!-- Import GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
